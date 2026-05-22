@@ -27,25 +27,23 @@
 - Python 3.11、3.12或3.13
 - 阿里云 DashScope API Key ([获取地址](https://dashscope.aliyun.com/))
 
-### Environment variables
+### 环境变量
 
-The real `.env` file is intentionally ignored by Git because it contains local
-secrets such as API keys. To reproduce the project, copy the template and fill
-in your own values:
+真实的 .env 文件已被 Git 忽略，因为它包含 API 密钥等本地机密信息。要复现该项目，请复制模板并填入你自己的值：
 
 ```bash
 cp .env.example .env
 ```
 
-On Windows PowerShell:
+在 Windows PowerShell 中：
 
 ```powershell
 Copy-Item .env.example .env
 notepad .env
 ```
 
-At minimum, replace `DASHSCOPE_API_KEY=your-dashscope-api-key-here` with your
-own DashScope API key. Keep `.env` private and do not commit it.
+建议将 DASHSCOPE_API_KEY=your-dashscope-api-key-here 替换为你自己的 DashScope API 密钥。请将 .env 文件保持私有，不要把带有自己api密钥的.env提交到github上。我们
+感恩。
 
 ### 安装和启动
 
