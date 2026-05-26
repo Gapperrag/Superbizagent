@@ -1,6 +1,6 @@
-# SuperBizAgent
+# OnCallAgent
 
-> 企业级智能对话和运维助手，支持 RAG 知识库问答和 AIOps 智能诊断
+> 对话运维助手，支持 RAG 知识库问答和 AIOps 智能诊断
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.109+-green.svg)](https://fastapi.tiangolo.com/)
